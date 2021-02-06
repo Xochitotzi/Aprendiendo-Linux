@@ -1,0 +1,36 @@
+====================================================
+====================================================
+========== Cómo habilitar sudo en Debian? ========== 
+====================================================
+====================================================
+
+1. Abrir una terminal
+
+2. Ejecutar el comando "su"
+   Hecho esto seguiremos los siguientes pasos
+   
+3. En algunos casos debemos primero instalar sudo con "apt-get install sudo"
+
+3.- Ahora editamos el fichero "nano /etc/sudoers"
+    
+    Ubicamos la siguiente linea:
+    # Allow members of group sudo to execute any command
+    %sudo   ALL=(ALL:ALL) ALL
+    
+    Y agregamos lo siguiente
+    tu_nombre_de_usuario   ALL=(ALL:ALL) ALL
+    
+    Guardamos con: (Ctrl + o)
+    Cerramos con: (Ctrl + x)
+    
+4. Salimos de su escribiendo "exit"
+
+5. Y ahora escribimos "sudo su"
+   Nos pedira contraseña pero ahora no debemos ingresar la contraseña de administrador,
+   ahora solo debes de ingresar la contraseña del usuario.
+
+6. Ahora el comando sudo esta habilitado.
+
+===========================================
+========== By Rubens Xochitiotzi ==========
+===========================================
