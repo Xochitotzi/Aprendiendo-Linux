@@ -1,2 +1,2 @@
 # Aprendiendo-Linux
-Algunas practicas con la distro Debian
+Aquí presento algunas practicas muy basicas enfocadas a  Debian
