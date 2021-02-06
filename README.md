@@ -1,2 +1,2 @@
 # Aprendiendo-Linux
-Aquí presento algunas practicas muy basicas enfocadas a  Debian
+A continuación presento algunas practicas muy básicas dirigidas a Debian
